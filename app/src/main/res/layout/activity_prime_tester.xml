@@ -44,6 +44,22 @@
 
     </LinearLayout>
 
+    <ImageView
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/kitten"
+        android:layout_weight="0.70" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/kitten_caption"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
     <Space
         android:layout_width="0dp"
         android:layout_height="0dp"
