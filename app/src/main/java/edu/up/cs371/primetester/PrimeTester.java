@@ -31,7 +31,7 @@ public class PrimeTester {
             }
             return false;
         } else if (n % 2 == 1) {
-            if (Math.sqrt(n) * Math.sqrt(n) == n) {
+            for (int i = 3; i*i <= n; i += 2) {
                 return false;
             }
             return true;
